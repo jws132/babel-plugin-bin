@@ -1,0 +1,23 @@
+{
+  "name": "@jzo/babel-plugin-bin",
+  "version": "1.0.0",
+  "description": "使用@jzo/babel-plugin-bin，可对babel按需加载插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "sh ./publish.sh"
+  },
+  "keywords": [
+    "babel-plugin",
+    "@jzo/babel-plugin-bin"
+  ],
+  "author": "梦里小白龙",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/types": "^7.3.0"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  }
+}
